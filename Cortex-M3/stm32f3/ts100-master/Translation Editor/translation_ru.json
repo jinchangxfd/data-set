@@ -1,0 +1,256 @@
+{
+	"languageCode": "RU",
+	"languageLocalName": "Русский",
+	"cyrillicGlyphs": true,
+	"messages": {
+		"SettingsCalibrationDone": "Калибровка выполнена!",
+		"SettingsCalibrationWarning": "Убедитесь, что жало остыло до комнатной температуры, прежде чем продолжать!",
+		"SettingsResetWarning": "Вы действительно хотите сбросить настройки до значений по умолчанию?",
+		"UVLOWarningString": "НАПРЯЖ--",
+		"UndervoltageString": "Под питанием",
+		"InputVoltageString": "Питание B: ",
+		"WarningTipTempString": "Жало t°: ",
+		"BadTipString": "Жало--",
+		"SleepingSimpleString": "Сон ",
+		"SleepingAdvancedString": "Ожидание...",
+		"WarningSimpleString": " ГОРЯЧО!",
+		"WarningAdvancedString": "!!! ГОРЯЧЕЕ ЖАЛО !!!",
+		"SleepingTipAdvancedString": "Жало:",
+		"IdleTipString": "Жало:",
+		"IdleSetString": " ->",
+		"TipDisconnectedString": "ЖАЛО ОТСОЕДИНЕНО",
+		"SolderingAdvancedPowerPrompt": "Питание: ",
+		"OffString": "Выкл.",
+		"ResetOKMessage": "Сброс OK",
+		"YourGainMessage": "Прирост:",
+		"SettingsResetMessage": "Настройки \nсброшены!"
+	},
+	"characters": {
+		"SettingRightChar": "П",
+		"SettingLeftChar": "Л",
+		"SettingAutoChar": "A",
+		"SettingFastChar": "+",
+		"SettingSlowChar": "-",
+		"SettingStartSolderingChar": "T",
+		"SettingStartSleepChar": "S",
+		"SettingStartSleepOffChar": "O",
+		"SettingStartNoneChar": "F"
+	},
+	"menuDouble": true,
+	"menuGroups": {
+		"SolderingMenu": {
+			"text2": [
+				"Параметры",
+				"пайки"
+			],
+			"desc": "Параметры пайки"
+		},
+		"PowerSavingMenu": {
+			"text2": [
+				"Режим",
+				"сна"
+			],
+			"desc": "Параметры экономии энергии"
+		},
+		"UIMenu": {
+			"text2": [
+				"Пользовател",
+				"интерфейс"
+			],
+			"desc": "Параметры пользовательского интерфейса"
+		},
+		"AdvancedMenu": {
+			"text2": [
+				"Дополнител.",
+				"параметры"
+			],
+			"desc": "Дополнительные параметры"
+		}
+	},
+	"menuOptions": {
+		"PowerSource": {
+			"text": "ИстП",
+			"text2": [
+				"Источник",
+				"питания"
+			],
+			"desc": "Источник питания. Установка напряжения отключения. <DC = 10 В, S = 3.3 В на батарею, ограничение мощности выкл.>"
+		},
+		"SleepTemperature": {
+			"text": "Тожд",
+			"text2": [
+				"Темпер.",
+				"сна"
+			],
+			"desc": "Температура режима ожидания <С>"
+		},
+		"SleepTimeout": {
+			"text": "Вожд",
+			"text2": [
+				"Таймаут",
+				"сна"
+			],
+			"desc": "Время до перехода в режим ожидания <Минуты/Секунды>"
+		},
+		"ShutdownTimeout": {
+			"text": "Тоткл",
+			"text2": [
+				"Время до",
+				"отключения"
+			],
+			"desc": "Время до отключения <Минуты>"
+		},
+		"MotionSensitivity": {
+			"text": "ЧувсДв",
+			"text2": [
+				"Чувст. сенсо-",
+				"ра движения"
+			],
+			"desc": "Акселерометр <0 = Выкл, 1 = Мин. чувствительный, 9 = Макс. чувствительный>"
+		},
+		"TemperatureUnit": {
+			"text": "ЕдТемп",
+			"text2": [
+				"Формат темпе-",
+				"ратуры(C°/F°)"
+			],
+			"desc": "Единица измерения температуры <C = Цельсия, F = Фаренгейт>"
+		},
+		"AdvancedIdle": {
+			"text": "ИнфОжд",
+			"text2": [
+				"Подробный ре-",
+				"жим ожидания"
+			],
+			"desc": "Показывать детальную информацию маленьким шрифтом на домашнем экране"
+		},
+		"DisplayRotation": {
+			"text": "ПовЭкр",
+			"text2": [
+				"Автоповорот",
+				"экрана"
+			],
+			"desc": "Ориентация дисплея <A = Авто, Л = Левая рука, П = Правая рука>"
+		},
+		"BoostEnabled": {
+			"text": "Турбо",
+			"text2": [
+				"Режим",
+				"Турбо"
+			],
+			"desc": "Активирует \"Турбо-режим\" при удержании кнопки А во время пайки"
+		},
+		"BoostTemperature": {
+			"text": "Ттур",
+			"text2": [
+				"Темпер.",
+				"Турбо"
+			],
+			"desc": "Температура в \"Турбо-режиме\""
+		},
+		"AutoStart": {
+			"text": "Астарт",
+			"text2": [
+				"Горячий",
+				"старт"
+			],
+			"desc": "Автоматический запуск паяльника при включении питания <T = Нагрев, S = Режим ожидания, F = Выкл.>"
+		},
+		"CooldownBlink": {
+			"text": "Охлажд",
+			"text2": [
+				"Показ t° при",
+				"остывании"
+			],
+			"desc": "Показывать температуру на экране охлаждения, пока жало остается горячим"
+		},
+		"TemperatureCalibration": {
+			"text": "КалибрТ",
+			"text2": [
+				"Калибровка",
+				"температуры"
+			],
+			"desc": "Калибровка термодатчика"
+		},
+		"SettingsReset": {
+			"text": "СБРОС?",
+			"text2": [
+				"Сбросить все",
+				"настройки?"
+			],
+			"desc": "Сброс всех настроек"
+		},
+		"VoltageCalibration": {
+			"text": "КалибрU?",
+			"text2": [
+				"Калибровка",
+				"напряжения"
+			],
+			"desc": "Калибровка входного напряжения. Настройка кнопками, нажать и удержать чтобы завершить"
+		},
+		"AdvancedSoldering": {
+			"text": "ИнфПай",
+			"text2": [
+				"Подробный ре-",
+				"жим пайки"
+			],
+			"desc": "Показывать детальную информацию при пайке"
+		},
+		"ScrollingSpeed": {
+			"text": "DESCSP",
+			"text2": [
+				"Скорость",
+				"текста"
+			],
+			"desc": "Скорость прокрутки текста"
+		},
+		"TipModel": {
+			"text": "TIPMO",
+			"text2": [
+				"Модель",
+				"жало"
+			],
+			"desc": "Выбор модели жало"
+		},
+		"SimpleCalibrationMode": {
+			"text": "SMPCAL",
+			"text2": [
+				"Простая",
+				"калибровка"
+			],
+			"desc": "Простая калибровка с использованием горячей воды"
+		},
+		"AdvancedCalibrationMode": {
+			"text": "ADVCAL",
+			"text2": [
+				"Подробная",
+				"калибровка"
+			],
+			"desc": "Калибровка с помощью термопары"
+		},
+		"PowerInput": {
+			"text": "PWRW",
+			"text2": [
+				"Мощность",
+				"адаптера"
+			],
+			"desc": "Мощность используемого адаптера питания"
+		},
+		"PowerLimitEnable": {
+			"text": "PLIMEN",
+			"text2": [
+				"Ограничение",
+				"мощности"
+			],
+			"desc": "Включает ограничение мощности потребления"
+		},
+		"PowerLimit": {
+			"text": "PLIM",
+			"text2": [
+				"Максимальная",
+				"мощность"
+			],
+			"desc": "Макс. мощность, которую может использовать паяльник <Ватт>"
+		}
+	}
+}

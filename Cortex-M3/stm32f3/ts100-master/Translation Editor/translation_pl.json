@@ -1,0 +1,254 @@
+{
+	"languageCode": "PL",
+	"languageLocalName": "Polski",
+	"cyrillicGlyphs": false,
+	"messages": {
+		"SettingsCalibrationDone": "Kalibracja udana!",
+		"SettingsCalibrationWarning": "Przed kontynuowaniem upewnij się, że końcówka osiągnela temperature pokojowa!",
+		"SettingsResetWarning": "Czy na pewno chcesz przywrócić ustawienia fabryczne?",
+		"UVLOWarningString": "NISKIE DC",
+		"UndervoltageString": "Pod napięciem",
+		"InputVoltageString": "Wejściowe V: ",
+		"WarningTipTempString": "Temperatura grota: ",
+		"BadTipString": "ZŁY GROT",
+		"SleepingSimpleString": "Zzz!",
+		"SleepingAdvancedString": "Uspienie...",
+		"WarningSimpleString": "HOT!",
+		"WarningAdvancedString": "GORĄCA KOŃCÓWKA!",
+		"SleepingTipAdvancedString": "Grot:",
+		"IdleTipString": "Grot:",
+		"IdleSetString": " Ustaw:",
+		"TipDisconnectedString": "GROT ODŁĄCZONY",
+		"SolderingAdvancedPowerPrompt": "Power: ",
+		"OffString": "Wyłącz",
+		"ResetOKMessage": "Reset OK"
+	},
+	"characters": {
+		"SettingRightChar": "P",
+		"SettingLeftChar": "L",
+		"SettingAutoChar": "A",
+		"SettingFastChar": "F",
+		"SettingSlowChar": "S",
+		"SettingStartSolderingChar": "T",
+		"SettingStartSleepChar": "S",
+		"SettingStartSleepOffChar": "O",
+		"SettingStartNoneChar": "N"
+	},
+	"menuDouble": false,
+	"menuGroups": {
+		"SolderingMenu": {
+			"text2": [
+				"Lutowanie",
+				"Ustawienia"
+			],
+			"desc": "Ustawienia lutownicy"
+		},
+		"PowerSavingMenu": {
+			"text2": [
+				"Uśpienie",
+				"Tryby"
+			],
+			"desc": "Ustawienia oszczędzania energii"
+		},
+		"UIMenu": {
+			"text2": [
+				"Użytkownik",
+				"Interfejs"
+			],
+			"desc": "Ustawienia interfejsu użytkownika"
+		},
+		"AdvancedMenu": {
+			"text2": [
+				"Zaawansowane",
+				"Opcje"
+			],
+			"desc": "Opcje zaawansowane"
+		}
+	},
+	"menuOptions": {
+		"PowerSource": {
+			"text": "PWRSC",
+			"text2": [
+				"Źródło",
+				"zasilania"
+			],
+			"desc": "Źródło zasilania. Ustaw napięcie odcięcia. <DC 10V> <S 3.3V dla ogniw Li>"
+		},
+		"SleepTemperature": {
+			"text": "STMP",
+			"text2": [
+				"Temperatura",
+				"uśpienia"
+			],
+			"desc": "Temperatura uśpienia <°C>"
+		},
+		"SleepTimeout": {
+			"text": "STME",
+			"text2": [
+				"Czas",
+				"uśpienia"
+			],
+			"desc": "Czas uśpienia <Minuty/Sekundy>"
+		},
+		"ShutdownTimeout": {
+			"text": "SHTME",
+			"text2": [
+				"Czas",
+				"wyłączenia"
+			],
+			"desc": "Czas wyłączenia <Minuty>"
+		},
+		"MotionSensitivity": {
+			"text": "MSENSE",
+			"text2": [
+				"Czułość",
+				"ruchu"
+			],
+			"desc": "Czułość ruchu <0.Wyłączona 1.minimalna 9.maksymalna>"
+		},
+		"TemperatureUnit": {
+			"text": "TMPUNT",
+			"text2": [
+				"Jednostka",
+				"temperatury"
+			],
+			"desc": "Jednostka temperatury <C=Celsius F=Fahrenheit>"
+		},
+		"AdvancedIdle": {
+			"text": "ADVIDL",
+			"text2": [
+				"Mniejsza",
+				"czcionka"
+			],
+			"desc": "Wyświetla szczegółowe informacje za pomocą mniejszej czcionki na ekranie bezczynnośći <T = wł., N = wył.>"
+		},
+		"DisplayRotation": {
+			"text": "DSPROT",
+			"text2": [
+				"Orientacja",
+				"wyświetlacza"
+			],
+			"desc": "Orientacja wyświetlacza <A. Automatyczna L. Leworęczna P. Praworęczna>"
+		},
+		"BoostEnabled": {
+			"text": "BOOST",
+			"text2": [
+				"",
+				""
+			],
+			"desc": "Użyj przycisku przedniego w celu zwiększenia temperatury <T = wł., N = wył.>"
+		},
+		"BoostTemperature": {
+			"text": "BTMP",
+			"text2": [
+				"Temperatura",
+				"w trybie boost"
+			],
+			"desc": "Temperatura w trybie \"boost\" "
+		},
+		"AutoStart": {
+			"text": "ASTART",
+			"text2": [
+				"Automatyczne",
+				"uruchamianie"
+			],
+			"desc": "Automatyczne uruchamianie trybu lutowania po włączeniu zasilania. T=Lutowanie, S= Tryb Uspienia ,N=Wyłącz"
+		},
+		"CooldownBlink": {
+			"text": "CLBLNK",
+			"text2": [
+				"Migająca",
+				"temperatura"
+			],
+			"desc": "Temperatura na ekranie miga, gdy grot jest jeszcze gorący. <T = wł., N = wył.>"
+		},
+		"TemperatureCalibration": {
+			"text": "TMP CAL?",
+			"text2": [
+				"Kalibracja",
+				"temp. grota"
+			],
+			"desc": "Kalibracja temperatury grota lutownicy"
+		},
+		"SettingsReset": {
+			"text": "RESET?",
+			"text2": [
+				"",
+				""
+			],
+			"desc": "Zresetuj wszystkie ustawienia"
+		},
+		"VoltageCalibration": {
+			"text": "CAL VIN?",
+			"text2": [
+				"Kalibracja",
+				"napięcia"
+			],
+			"desc": "Kalibracja napięcia wejściowego. Krótkie naciśnięcie, aby ustawić, długie naciśnięcie, aby wyjść."
+		},
+		"AdvancedSoldering": {
+			"text": "ADVSLD",
+			"text2": [
+				"Szczegółowe",
+				"informacje"
+			],
+			"desc": "Wyświetl szczegółowe informacje podczas lutowania <T = wł., N = wył.>"
+		},
+		"ScrollingSpeed": {
+			"text": "DESCSP",
+			"text2": [
+				"Szybkość",
+				"tekstu"
+			],
+			"desc": "Szybkość przewijania tekstu"
+		},
+		"TipModel": {
+			"text": "TIPMO",
+			"text2": [
+				"Model",
+				"grota"
+			],
+			"desc": "Wybór grotu"
+		},
+		"SimpleCalibrationMode": {
+			"text": "SMPCAL",
+			"text2": [
+				"Prosta",
+				"Kalibracja"
+			],
+			"desc": "Prosta kalibracja używając gorącej wody"
+		},
+		"AdvancedCalibrationMode": {
+			"text": "ADVCAL",
+			"text2": [
+				"Zaawansowana",
+				"Kalibracja"
+			],
+			"desc": "Zaawansowana kalibracja za pomocy termopoary na grocie"
+		},
+		"PowerInput": {
+			"text": "PWRW",
+			"text2": [
+				"Moc",
+				"Wattach"
+			],
+			"desc": "Moc używanego zasilacza w Watach"
+		},
+		"PowerLimitEnable": {
+			"text": "PLIMEN",
+			"text2": [
+				"P Limit",
+				"Enable"
+			],
+			"desc": "Enable power limit"
+		},
+		"PowerLimit": {
+			"text": "PLIM",
+			"text2": [
+				"Power",
+				"Limit"
+			],
+			"desc": "Maximum power the iron can use <Watts>"
+		}
+	}
+}

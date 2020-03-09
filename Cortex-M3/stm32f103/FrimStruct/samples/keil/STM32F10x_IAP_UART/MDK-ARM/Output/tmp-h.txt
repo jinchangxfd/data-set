@@ -1,0 +1,29 @@
+
+./STM32F10x-IAP-UART.axf:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 ER_IROM1      00001798  08000000  08000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 RW_IRAM1      0000007c  20000000  20000000  000017cc  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 RW_IRAM1      00000d04  2000007c  2000007c  00001848  2**3
+                  ALLOC
+  3 .debug_abbrev 000005c4  00000000  00000000  00001848  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_frame  000008dc  00000000  00000000  00001e0c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00009570  00000000  00000000  000026e8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_line   0000321c  00000000  00000000  0000bc58  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_loc    0000123c  00000000  00000000  0000ee74  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_macinfo 0003e134  00000000  00000000  000100b0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_pubnames 00000b03  00000000  00000000  0004e1e4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .note         0000001c  00000000  00000000  00051858  2**2
+                  CONTENTS, READONLY
+ 11 .comment      00003ef8  00000000  00000000  00051874  2**0
+                  CONTENTS, READONLY
